@@ -7,10 +7,9 @@ public class Calcolatrice {
 		risultato = primo+secondo+terzo;
 		return risultato;
 	}
-	public int moltiplicazione (int primo, int secondo) {
+	public int moltiplicazione (int primo, int secondo, int terzo) {
 		int risultato;
-		risultato = primo * secondo;
+		risultato = primo * secondo * terzo;
 		return risultato;
 	}
-
 }
