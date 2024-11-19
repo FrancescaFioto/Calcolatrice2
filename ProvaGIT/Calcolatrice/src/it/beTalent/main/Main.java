@@ -12,8 +12,9 @@ public class Main {
 		int c = 7;
 		
 		int somma = calc.somma(a, b, c);
-		
+		int prodotto = calc.moltiplicazione(a,b);
 		System.out.println("La somma dei numeri inseriti è: " + somma);
+		System.out.println("Il prodotto dei primi due numeri è: " + prodotto);
 		
 
 	}
